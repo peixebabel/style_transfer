@@ -1,4 +1,4 @@
-# style_transfer
+# Transferência de Estilo - Peixe Babel
 
 Transferência de estilo implementada e apresentada <a href=""> Canal Peixe Babel <a>. <br>
 Essa é uma adaptação direta do tutorial `Neural Style Transfer`do PyTorch. Veja o original: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html 
