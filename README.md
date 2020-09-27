@@ -1,2 +1,15 @@
 # style_transfer
-Transferência de estilo com duas possibilidades: (1) Use a ferramenta com ZERO CÓDIGO! (Sério, é só apertar play) ou (2) Veja o notebook com o passo a passo.
+
+Transferência de estilo implementada e apresentada <a href=""> Canal Peixe Babel <a>. 
+ 
+
+Você pode experimentar a ferramenta de duas formas: 
+
+* Use a ferramenta com ZERO CÓDIGO! (Sério, é só apertar play)
+  * [Clique aqui e entre na sua conta Google pra usar]https://colab.research.google.com/drive/1pcmExh5AZUo6LXblsDg2qfLyhlhGjI7U?usp=sharing
+  * A parte de fazer login é só porque a ferramenta está hospedada nos servidores da Google.
+  
+* Veja o notebook com o passo a passo
+  * É o `StyleTransfer_Tutorial.ipynb`
+
+> Dúvidas, sugestões ou opiniões, você pode nos encontrar em: <font color='dodgerblue'>**@canalpeixebabel**</font> em todas as redes sociais, até e-mail! Vem nos conhecer no <a href="https://twitter.com/canalpeixebabel">Twitter</a>, <a href="https://www.instagram.com/canalpeixebabel/">Instagram</a>, <a href="https://www.linkedin.com/company/canal-peixe-babel">Linkedin</a>!
