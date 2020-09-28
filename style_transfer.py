@@ -147,7 +147,7 @@ class StyleTransfer():
 
     print('Optimizing..')
     run = [0]
-    while run[0] <= self.args['num_steps']-100:
+    while run[0] <= self.args['num_steps']:
 
       def closure():
           # correct the values of updated input image
