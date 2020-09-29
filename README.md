@@ -5,7 +5,7 @@ Essa é uma adaptação direta do tutorial `Neural Style Transfer`do PyTorch. Ve
 
 ![](https://github.com/peixebabel/style_transfer/blob/master/exemplo.png)
 
-Pra ver uma explicação em vídeo, cola aqui: https://www.youtube.com/watch?v=DYkGiqNWusI
+Pra ver uma explicação em vídeo, cola aqui: https://www.youtube.com/watch?v=DYkGiqNWusI <br>
 Você pode experimentar a ferramenta de duas formas: 
 
 * Use a ferramenta com ZERO CÓDIGO! (Sério, é só apertar play)
