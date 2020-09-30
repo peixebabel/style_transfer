@@ -48,12 +48,12 @@ class StyleLoss(nn.Module):
 
 
 class StyleTransfer():
-  def __init__(self, content_img, style_img, iterations):
+  def __init__(self, content_img, style_img, iterations, style_weight, content_weight):
     self.args = {
         'img_size': 512,
         'num_steps': iterations,
-        'style_weight': 1000000, 
-        'content_weight': 1
+        'style_weight': style_weight, 
+        'content_weight': content_weight
     }
     self.args['device'] = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     self.model = nn.Sequential()
@@ -76,7 +76,7 @@ class StyleTransfer():
     self.style_img   = self.image_loader(style_img, 'Estilo')
 
   def image_loader(self, image_name, type_):
-    image = Image.open(image_name)
+    image = Image.open(image_name).convert('RGB')
     image = self.loader(image)
     
     if self.show_imgs:
@@ -176,6 +176,11 @@ class StyleTransfer():
             print('Style Loss : {:4f} Content Loss: {:4f}'.format(
                 style_score.item(), content_score.item()))
             print()
+            img = input_img[0].permute(1,2,0).cpu().detach()
+            plt.figure(figsize=(7,7))
+            plt.imshow(img)
+            plt.axis('off')
+            plt.show()
 
         return style_score + content_score
 
